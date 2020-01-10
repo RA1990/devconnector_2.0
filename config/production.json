@@ -1,6 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://raul90:Greatkaren27@daracluster-ntpew.mongodb.net/test?retryWrites=true&w=majority",
-  "jwtSecert": "mysecrettoken",
-  "githubClientId": "f269f0c11093af4f8850",
-  "githubSecret": "aa3976f706be09077d6028a75179130e18683a04"
-}
