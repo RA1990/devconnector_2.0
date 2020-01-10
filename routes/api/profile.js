@@ -55,7 +55,7 @@ router.post(
 
     const {
       // here we are destructing aka pulling everthing out of the body
-      compnay,
+      company,
       website,
       location,
       bio,
@@ -73,7 +73,7 @@ router.post(
     // if feilds actually have incoming content
     const profileFields = {};
     profileFields.user = req.user.id;
-    if (compnay) profileFields.compnay = company;
+    if (company) profileFields.company = company;
     if (website) profileFields.website = website;
     if (location) profileFields.location = location;
     if (bio) profileFields.bio = bio;
